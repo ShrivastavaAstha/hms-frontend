@@ -1,0 +1,11 @@
+.announcement-form {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+.announcement-form input,
+.announcement-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}

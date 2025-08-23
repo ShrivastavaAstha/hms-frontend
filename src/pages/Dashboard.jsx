@@ -15,6 +15,7 @@ import {
 } from "recharts";
 import { useNavigate } from "react-router-dom";
 import "./Dashboard.css";
+import AdminAnnouncementForm from "./AdminAnnouncementForm";
 
 const Dashboard = () => {
   const doctorSectionRef = useRef(null);
@@ -160,6 +161,7 @@ const Dashboard = () => {
           <h1></h1>
           <h1>Welcome, Admin✨</h1>
         </div>
+        <AdminAnnouncementForm />
         {/* Stats */}
         <div className="stats">
           <div className="stat-card">
